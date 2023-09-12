@@ -1,8 +1,5 @@
-import assert from "assert";
-import {calcularAreaCirculo, calcularAreaCirculoNuevo} from "./example2.js";
+const {calcularAreaCirculo, calcularAreaCirculoNuevo} = require("./example2");
 
-describe("Test a funciones de calculo de area de un circulo", () => {
-    it("ambas funciones deben retornar el mismo valor", () => {
-        assert.equal(calcularAreaCirculo(12), calcularAreaCirculoNuevo(12))
-    })
+test("funciones de calculo de area de un circulo", () => {
+    expect(calcularAreaCirculo(12)).toBe(calcularAreaCirculoNuevo(12));
 });

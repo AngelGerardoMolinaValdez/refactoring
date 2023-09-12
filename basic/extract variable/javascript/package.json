@@ -1,20 +1,14 @@
 {
-    "name": "extract-variable-refactoring-method",
-    "version": "1.0.0",
-    "type": "module",
-    "description": "Extract Variable exercises",
-    "main": "example1.js",
-    "scripts": {
-      "test": "mocha **/*.test.js",
-      "start": "node example1.js"
-    },
-    "dependencies": {
-      "mocha": "^8.4.0"
-    },
-    "devDependencies": {
-    },
-    "keywords": [],
-    "author": "Angel Gerardo Molina Valdez",
-    "license": "MIT"
+  "name": "extract-variable",
+  "version": "1.0.0",
+  "description": "ejercicios del refactor extract variable",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Angel Gerardo Molina Valdez",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
   }
-  
+}

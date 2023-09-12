@@ -17,4 +17,4 @@ function calcularAreaCirculoNuevo(radio) {
     return redondear(area, 4)
 }
 
-export {calcularAreaCirculo, calcularAreaCirculoNuevo};
+module.exports = {calcularAreaCirculo, calcularAreaCirculoNuevo};

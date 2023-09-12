@@ -14,4 +14,4 @@ function nuevoCelsiusAFahrenheit(celsius) {
     return fahrenheit
 }
 
-export {celsiusAFahrenheit, nuevoCelsiusAFahrenheit};
+module.exports = {celsiusAFahrenheit, nuevoCelsiusAFahrenheit};
