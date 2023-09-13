@@ -1,0 +1,14 @@
+{
+  "name": "combine-functions-into-class",
+  "version": "1.0.0",
+  "description": "ejercicios de refactor",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Angel Gerardo Molina Valdez",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
